@@ -28,18 +28,18 @@ vim.g.lazyvim_check_order = false
 require("lazy").setup({
   spec = {
     -- dracula theme
-    {
-      "Mofiqul/dracula.nvim",
-      config = function()
-        require("dracula").setup({
-          -- optional customization
-          transparent_bg = true,
-          italic_comment = true,
-        })
-        -- set the colorscheme
-        vim.cmd.colorscheme("dracula")
-      end,
-    },
+    --{
+    --  "Mofiqul/dracula.nvim",
+    --  config = function()
+    --    require("dracula").setup({
+    --      -- optional customization
+    --      transparent_bg = true,
+    --      italic_comment = true,
+    --    })
+    --    -- set the colorscheme
+    --    vim.cmd.colorscheme("dracula")
+    --  end,
+    --},
     -- end dracula theme
 
     -- my plugins (other dir)
