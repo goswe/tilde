@@ -24,6 +24,9 @@ vim.g.maplocalleader = "\\"
 -- system clipboard stuff
 vim.opt.clipboard:append("unnamedplus")
 
+-- set line number
+vim.opt.number = true
+
 -- set tab stuff
 -- number of spaces a tab counts for
 vim.opt.tabstop = 4
